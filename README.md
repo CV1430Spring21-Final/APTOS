@@ -1,6 +1,18 @@
 # diabetic_retinopathy
 CNN model that detects Diabetic Retinopathy
 
+## Fengyi Jiang, Venkata Shubhang Kandiraju, Haotian Fu, Joey Bai.
+
+### How to Run: 
+#### Download Dataset using command line argument: 
+pip3 install kaggle
+kaggle datasets download -d tanlikesmath/diabetic-retinopathy-resized
+#### Set path: 
+Set path to be the directory to the downloaded folder. 
+#### (Optional) Load full model:
+Use Google Drive Link with Brown Account: https://drive.google.com/file/d/1VjOy2ekSLotuQm9GqI1hMahndPKyqQMO/view?usp=sharing
+Our Github Large File System credit depleted. So have to use Google Drive.
+
 ### Problem Statement
 
 Diabetic retinopathy (DR) is an eye disease that arises due to diabetes and is a leading cause of blindness around the world. It's a hard disease to catch early on, when it's most treatable, due to lack of significant symptoms. 
@@ -23,3 +35,8 @@ And inceptionv3_0421_2021.ipynb is the access point for the running the project.
 InceptionV3_weights Folder :Model weights for the InceptionV3 Model.
 
 VGG16_weights Folder: Model weights for the VGG16 Model.
+
+### Notebook Public Access: 
+
+The notebook can be accessed through PaperSpace VM instances as well: https://console.paperspace.com/te7cu6qao/notebook/rsjnvjdl33ub6wv 
+
